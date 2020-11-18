@@ -19,7 +19,7 @@
 <body>
 <h3>ระบุคำค้นหา</h3>
         <input id="songName" name="songName" type="text" width="80%">
-        <button type="submit">ค้นหา</button>
+        <button type="submit" class="btn btn-primary">ค้นหา</button>
     <?php
         $url = "https://dd-wtlab2020.netlify.app/pre-final/ezquiz.json";
         $res = file_get_contents($url);
